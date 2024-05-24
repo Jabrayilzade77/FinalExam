@@ -1,0 +1,78 @@
+.navbar_container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  .search_div {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    input {
+      max-width: 200px;
+      width: 100%;
+      height: 30px;
+      border-style: none;
+      margin: auto;
+    }
+  }
+
+  .shoppers_div {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      max-width: 150px;
+      width: 100%;
+      height: 30px;
+      font-size: 20px;
+      font-weight: 500;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .icons_div {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    i {
+      color: rgb(132, 132, 132);
+    }
+  } 
+}
+.navbar_links {
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border: 1px solid rgb(214, 214, 214);
+  a {
+    font-size: 15px;
+    color: black;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .navbar_links{
+    display: none;
+  }
+  
+}
